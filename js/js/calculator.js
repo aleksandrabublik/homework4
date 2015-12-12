@@ -3,7 +3,9 @@ var Currents = 0;
 var FlagNewNum = false;										
 var PendingOp = "";											
 															
-function Clear()									
+	
+$(":button").click(alert("Click"));		
+function clear()							
 {															
 	Currents = 0;											
 	PendingOp = "";											
@@ -77,7 +79,7 @@ function Neg()
 	document.fcalculator.text_line.value = str;				
 }															
 															
-/
+
 
 
 
