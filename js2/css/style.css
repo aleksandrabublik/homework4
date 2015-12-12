@@ -1,0 +1,99 @@
+html {
+	background-color:gray;
+	text-align:justify;
+}
+	body {
+		width:960px;
+		margin:auto;
+	}
+		.block{
+			background-color:white;
+			border-radius:15px;
+			margin:0px;
+			padding: 10px;
+		}
+		
+		header{
+			height:130px;
+		}
+			header #logo{
+				float: left;
+				position: relative;
+			}
+			header h1{
+				margin: 40px 230px;
+				float: none;
+			}
+			header nav{
+				margin: 35px 192px 0;
+			}
+			header ul{
+				margin-bottom: 0px;
+				position: auto;
+				list-style-type: none;
+			}
+				header ul li{
+					float:left;
+					margin: 0 20px 0 0;
+				}
+					header ul li ul {
+						display:none;
+					}
+						header ul li ul li {
+							float: none;
+						}
+						li:hover ul{
+							display: block;
+							position: fixed;
+							border: 1px solid gray;
+						} 
+
+		#main {
+			font-family:arial;
+			margin:0px;
+		}
+			#main h2 {
+				margin:0px;
+			}
+			#main ul{
+				margin:0px;
+			}
+				#main ul dl{
+					margin: 0;
+				}
+			#main p{
+				margin-top: 0px;
+			}
+		aside{
+			background-color:gray;
+			border-radius:15px;
+			padding:10px;
+			float:right;
+			width:32%;
+			margin-left:10px;
+		}
+		p{
+			margin-bottom:0px;
+		}
+		#calculator table{
+			border-style:none;
+			margin: 0px auto;
+			align: center;
+		}
+			#calculator input{
+				width: 50px;
+				height: 126%;
+			}
+			#calculator #znacRavno{
+				height: 50px;
+			}
+			#calculator #zero{
+				width: 104px;
+			}
+			#calculator #text_line{
+				width: 98%;
+				height: 100%;
+				}
+		footer {
+			text-align:center;
+		}
